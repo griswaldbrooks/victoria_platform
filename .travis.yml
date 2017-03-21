@@ -39,7 +39,7 @@ install:
       #- sudo apt-get install -y ros-$ROS_DISTRO-topic-tools
       #- sudo apt-get install -y ros-$ROS_DISTRO-tf
       #- pip install -U rospkg
-      - pip install -U catkin_pkg
+    - pip install -U catkin_pkg
       #- pip install -U empy
     - sudo apt-get install -y python-catkin-pkg python-rosdep python-wstool ros-$ROS_DISTRO-catkin    
     - source /opt/ros/$ROS_DISTRO/setup.bash
