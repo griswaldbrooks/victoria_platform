@@ -31,7 +31,7 @@ install:
     # Install minimum amount of ROS to get things working for rosserial.
     #- sudo apt-get install -y ros-$ROS_DISTRO-catkin
       #- sudo apt-get install -y python-rosdep
-      #- sudo apt-get install -y ros-$ROS_DISTRO-rosbash
+    - sudo apt-get install -y ros-$ROS_DISTRO-rosbash
       #- sudo apt-get install -y ros-$ROS_DISTRO-roscpp
       #- sudo apt-get install -y ros-$ROS_DISTRO-roslib
       #- sudo apt-get install -y ros-$ROS_DISTRO-rospy
